@@ -88,9 +88,12 @@ ul {
         background-color: #e7ecec;
         Display:grid; 
         Place-items: center;
-        max-width: 60vw;
+        max-width: 65vw;
         margin: auto;
         padding-bottom: 50rem;
       }
 
-     
+    .card {
+        margin-bottom: 2rem;
+        
+    }

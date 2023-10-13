@@ -1,0 +1,94 @@
+ul {
+    display: flex;
+    list-style: none
+    }
+    
+    li {
+      margin-right: 15px;
+    }
+    
+    li:hover a {
+    background: #55eef3;
+    justify-content: space-between;
+    border-radius: 0px;
+    
+    }
+    
+    #home:hover {
+    /* this changes the font color */
+    color: rgb(247, 90, 255);
+    /* this changes makes the font thicker or thinner */
+    font-weight: bold;
+    }
+    
+    .nav-item:hover a {
+        /* this changes the font color */
+        color: white;
+        /* this changes makes the font thicker or thinner */
+        font-weight: bold;
+    }
+    
+    .dropdown-menu {
+        background-color: rgb(236, 182, 255)!important;
+        border-radius: 0px;
+    }
+    
+    .dropdown:hover .dropdown-menu {
+        display:block;
+        
+    }
+    
+    
+    .dropdown-item:hover  {
+        background: rgb(236, 182, 255);
+    }
+    
+    .navbar{
+        padding:0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 100;
+        border-bottom: 3px solid rgb(236, 182, 255);
+    }
+    
+    
+    .bg-primary {
+        background-color: rgb(236, 182, 255)!important;
+        
+    }
+    
+    .navbar-brand {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 5;
+    }
+    
+    .mx-auto {
+        margin-right: auto!important;
+        margin-left: auto!important;
+        padding-left: 11rem;
+    }
+    
+    .navbar-text{
+        display: grid;
+        place-items:center;
+        text-align: center;
+        font-size: 1rem;
+    }
+    .nav-item {
+        padding: 0% 0 0 0;
+    } 
+    
+    body {
+        background-color: rgb(76, 26, 123);
+    }
+    
+    main {
+        
+        background-color: #e7ecec;
+        Display:grid; 
+        Place-items: center;
+        max-width: 60vw;
+        margin: auto;
+        padding-bottom: 50rem;
+      }
