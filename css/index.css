@@ -37,6 +37,7 @@ font-weight: bold;
 .dropdown-menu {
     background-color: rgb(236, 182, 255)!important;
     border-radius: 0px;
+    --bs-dropdown-border-width: unset;
     
     
     
@@ -60,7 +61,7 @@ font-weight: bold;
     top: 0;
     width: 100%;
     z-index: 100;
-    border-bottom: 3px solid rgb(236, 182, 255);
+    border-bottom: 3px solid rgb(255, 255, 255);
 }
 
 
@@ -93,7 +94,9 @@ font-weight: bold;
 body {
     background-color: rgb(76, 26, 123);
 }
-
+.background {
+    
+}
 main {
     
     background-color: #e7ecec;
