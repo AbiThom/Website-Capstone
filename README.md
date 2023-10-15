@@ -1,9 +1,7 @@
 # Website-Capstone
 Plushie shop for personas.
-<img src="/images/screen1.PNG">
-<img src="/images/screen2.PNG">
-<img src="/images/screen3.PNG">
-<img src="/images/screenA.PNG">
-<img src="/images/screenB.PNG">
-<img src="/images/screenC.PNG">
-<img src="/images/screenD.PNG">
+<img src="/images/HomePage.png">
+<img src="/images/ProductPage.png">
+<img src="/images/SignUpPage.png">
+<img src="/images/LoginPage.png">
+<img src="/images/CartPage.png">

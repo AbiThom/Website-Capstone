@@ -1,19 +1,23 @@
 ul {
+
 display: flex;
 list-style: none
 }
 
 li {
-  margin-right: 15px;
+ 
+margin-right: 15px;
 }
 
 a {
+
 padding: 8px 15px;
 color: #0800f6;
 text-decoration: underline;
 }
 
 li:hover a {
+  
 background: #55eef3;
 justify-content: space-between;
 border-radius: 0px;
@@ -21,6 +25,7 @@ border-radius: 0px;
 }
 
 #home:hover {
+
 /* this changes the font color */
 color: rgb(247, 90, 255);
 /* this changes makes the font thicker or thinner */
@@ -28,16 +33,18 @@ font-weight: bold;
 }
 
 .nav-item:hover a {
-    /* this changes the font color */
-    color: white;
-    /* this changes makes the font thicker or thinner */
-    font-weight: bold;
+
+/* this changes the font color */
+color: white;
+/* this changes makes the font thicker or thinner */
+ font-weight: bold;
 }
 
 .dropdown-menu {
-    background-color: rgb(236, 182, 255)!important;
-    border-radius: 0px;
-    --bs-dropdown-border-width: unset;
+
+background-color: rgb(236, 182, 255)!important;
+border-radius: 0px;
+--bs-dropdown-border-width: unset;
     
     
     
@@ -46,68 +53,87 @@ font-weight: bold;
 
 
 .dropdown:hover .dropdown-menu {
-    display:block;
+
+display:block;
     
 }
 
 
 .dropdown-item:hover  {
-    background: rgb(236, 182, 255);
+
+background: rgb(236, 182, 255);
 }
 
 .navbar{
-    padding:0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 100;
-    border-bottom: 3px solid rgb(255, 255, 255);
+
+padding:0;
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 100;
+border-bottom: 3px solid rgb(255, 255, 255);
 }
 
 
 .bg-primary {
-    background-color: rgb(236, 182, 255)!important;
+
+background-color: rgb(236, 182, 255)!important;
     
 }
 
 .navbar-brand {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 5;
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 5;
 }
 
 .mx-auto {
-    margin-right: auto!important;
-    margin-left: auto!important;
-    padding-left: 11rem;
+
+margin-right: auto!important;
+margin-left: auto!important;
+padding-left: 11rem;
 }
 
 .navbar-text{
-    display: grid;
-    place-items:center;
-    text-align: center;
-    font-size: 1rem;
+
+display: grid;
+place-items:center;
+text-align: center;
+font-size: 1rem;
 }
 .nav-item {
-    padding: 0% 0 0 0;
+
+padding: 0% 0 0 0;
 } 
 
-body {
+.background {
+    position: relative;
     background-color: rgb(76, 26, 123);
 }
-.background {
-    
+.background::before {
+    content: "";
+      background-image: url(/images/transparentrambus.jpg);
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.1;
 }
+
 main {
-    
+    position: relative;
     background-color: #e7ecec;
     Display:grid; 
     Place-items: center;
     max-width: 70vw;
     margin: auto;
-    padding-bottom: 50rem;
+    padding-bottom: 20rem;
   }
 
 .card {
+    position: relative;
     --bs-card-spacer-y: 10rem;
     --bs-card-spacer-x: 1rem;
     margin: 10px;
@@ -118,6 +144,7 @@ main {
 }
 
 h1{
+    position: relative;
     margin: 10px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -125,6 +152,7 @@ h1{
 }
 
 .wrapper {
+    position: relative;
      margin-right: 5rem;
      margin-left: 5rem;
      padding-top: .5rem;
@@ -135,6 +163,7 @@ h1{
 
 
 .plushie{
+    position: relative;
     display: block;
     margin-left: auto;
     margin-right:auto;

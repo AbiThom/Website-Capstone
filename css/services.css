@@ -80,21 +80,34 @@ ul {
         padding: 0% 0 0 0;
     } 
     
-    body {
+    .background {
+        position: relative;
         background-color: rgb(76, 26, 123);
+    }
+    .background::before {
+        content: "";
+        background-image: url(/images/transparentrambusLONG.png);
+        background-size: cover;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.1;
     }
     
     main {
-        
+        position: relative;
         background-color: #e7ecec;
         Display:grid; 
         Place-items: center;
         max-width: 65vw;
         margin: auto;
-        padding-bottom: 50rem;
+        padding-bottom: 2rem;
       }
 
     .card {
+        position: relative;
         margin-bottom: 2rem;
         
     }

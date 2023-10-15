@@ -80,33 +80,45 @@ ul {
         padding: 0% 0 0 0;
     } 
     
-    body {
+    .background {
+        position: relative;
         background-color: rgb(76, 26, 123);
     }
+    .background::before {
+          content: "";
+          background-image: url(/images/transparentrambus.jpg);
+          background-size: cover;
+          position: absolute;
+          top: 0px;
+          right: 0px;
+          bottom: 0px;
+          left: 0px;
+          opacity: 0.1;
+    }    
     
     main {
-        
+        position: relative;
         background-color: #e7ecec;
         Display:grid; 
         Place-items: center;
         max-width: 60vw;
         margin: auto;
-        padding-bottom: 50rem;
+        padding-bottom: 20rem;
       }
 
 
-.login-in-form
-{
-  width: 300px;
-  box-shadow: 0 0 3px 0 rgba (0, 0, 0, 0.3);
-  background: #fff;
-  border: 1px solid black;
-  padding: 20px;
-  margin: 8% auto 0;
-  text-align: center;
+.login-in-form {
+     position: relative;
+     width: 300px;
+     box-shadow: 0 0 3px 0 rgba (0, 0, 0, 0.3);
+     background: #fff;
+     border: 1px solid black;
+     padding: 20px;
+     margin: 8% auto 0;
+     text-align: center;
 }
-.login-in-form h1
-{
-  color: black;
-  margin-bottom: 30px;
+.login-in-form h1 {
+     position: relative;
+     color: black;
+     margin-bottom: 30px;
 }
