@@ -102,7 +102,7 @@ ul {
         /* Display:grid;  */
         Place-items: center;
         max-width: 60vw;
-        max-height: 100vh;
+        /* max-height: 100vh; */
         margin: auto;
-        padding-bottom: 6rem;
+        /* padding-bottom: 6rem; */
       }
