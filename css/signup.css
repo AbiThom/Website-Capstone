@@ -86,7 +86,7 @@ ul {
     }
     .background::before {
         content: "";
-          background-image: url(/images/transparentrambus.jpg);
+          background-image: url(../images/transparentrambus.jpg);
           background-size: cover;
           position: absolute;
           top: 0px;
