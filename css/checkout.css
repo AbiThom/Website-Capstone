@@ -109,7 +109,7 @@ ul {
     main {
         position: relative;
         background-color: #e7ecec;
-        Display:grid; 
+        /* Display:grid;  */
         Place-items: center;
         max-width: 80vw;
         margin: auto;
